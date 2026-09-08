@@ -172,18 +172,28 @@ Projektwurzelverzeichnis. Konventionen aus `OPAL_Andwendertag_2026`
 
 - LiaScript-Header mit `language: de`, `narrator: Deutsch Female`,
   `persistent: true`, `edit: true`
-- `import:`-Blöcke für benötigte Templates
-- `@style`-Block mit `.cols`-Klasse für Zweispalter
-- Grad-Bilder (`pics/grad/N.png` aus `MINT-the-GAP/Aufgabensammlung`) als
-  Kapitelmarker
-- Zweispalter mit Animationsstufen `{{0-2}}` / `{{1-2}}`
-- `style.css` im Projektverzeichnis
+- `import:` für `LiveEdit-Embeddings` (die `@embed.style`-Blöcke der
+  Kernideen) und `Pyodide` (ausführbares Python)
+- `@style`-Block mit `.cols`-Klasse — ausschließlich für das zweispaltige
+  Titelblatt
+
+**Bewusst sparsame Auszeichnung.** Der Vortrag verzichtet auf dekoratives
+HTML: keine verschachtelten `<small>`-Tags, kein `<center>`, keine
+Bild-Marker in den Überschriften, keine Spaltenlayouts im Fließtext.
+Gegenüberstellungen sind Tabellen oder aufeinanderfolgende
+Animationsstufen.
+
+Der Grund ist inhaltlich, nicht ästhetisch: Der Vortrag behauptet, ein Kurs
+sei nichts als Text. Wer den Quelltext über den QR-Code öffnet, soll genau
+das vorfinden. Aus demselben Grund steht das Layout als `@style` im
+Dokument und nicht in einer separaten CSS-Datei — die Markdown-Datei bleibt
+für sich allein lauffähig.
 
 ### 6.2 Wiederverwendung
 
 | Baustein | Quelle |
 |---|---|
-| Header, `@style`, Grad-Marker, Zweispalter-Muster | `OPAL_Andwendertag_2026/Vortrag.md` |
+| Header-Konventionen, `@style`-Zweispalter des Titelblatts | `OPAL_Andwendertag_2026/Vortrag.md` |
 | Drei Kernideen | `Opal_Schule_meets_LiaScript/02_Verstehen.md` |
 | Link-Eskalation | `LiaScript_WeAreDevelopers2022/README.md` |
 | OPAL-Einbettung, „Welcher Weg wann?" | `OPAL_Andwendertag_2026/Vortrag.md` |

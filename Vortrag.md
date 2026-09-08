@@ -71,7 +71,7 @@ einfachen Textdatei ein interaktiver Kurs wird — und wie eine KI Ihnen dabei
 die erste Fassung schreibt. Am Ende steht das Ergebnis in OPAL.
 
 
-# Was Sie hier gerade sehen
+## Was Sie hier gerade sehen
 
 > [!IMPORTANT]
 > **Dieser Vortrag ist selbst ein LiaScript-Dokument und damit eine Textdatei.**
@@ -250,7 +250,7 @@ heranzoomen. Eine Zeile Text im Quelltext, keine Installation, kein Plugin.
 Und das ist nur ein Beispiel: Genauso lassen sich Simulationen, Messdaten oder
 ausführbarer Programmcode einbetten.
 
-## Eine Syntax, fünf Medientypen
+## Ich mag keinen Code!
 
 > [!IMPORTANT]
 > **Der Unterschied zwischen einem Link und einer 3D-Simulation sind ein bis
@@ -280,7 +280,7 @@ __Ein Irgendwas__ (??)
 ````
 
 --{{0}}--
-Und jetzt der Punkt, der viele überrascht: Multimedia einzubinden ist keine
+Multimedia einzubinden ist keine
 technische Hürde. Kein Einbettungscode, kein iframe-Gebastel, keine
 Plugin-Rechte. Sie schreiben denselben Link wie immer — und stellen ein bis
 zwei Zeichen davor. Ein Ausrufezeichen macht daraus ein Bild, ein Fragezeichen
@@ -293,48 +293,7 @@ passiert.
 # Die Werkstatt
 
 > [!IMPORTANT]
-> **Texte sind die Ausgabe von KIs - .**
-
---{{0}}--
-Kommen wir zum Hauptteil. Bis hierher habe ich Ihnen gezeigt, wie LiaScript
-funktioniert. Jetzt die eigentliche Frage: Muss ich das alles selbst schreiben?
-Die Antwort lautet: nein. Und das führen wir jetzt live vor.
-
-## Warum ausgerechnet KI und LiaScript zusammenpassen
-
-     {{1}}
-**Erinnern Sie sich an Idee 1?**
-
-     {{1}}
-Ein LiaScript-Kurs ist **Text**. Kein Binärformat, keine Datenbank, keine
-verschachtelte XML-Struktur.
-
-     {{2}}
-**Und was können Sprachmodelle am besten?**
-
-     {{2}}
-**Text schreiben.** Genau deshalb ist ein LiaScript-Kurs für eine KI eine
-dankbare Aufgabe — und ein ONYX-Test nicht.
-
-     {{3}}
-> [!NOTE]
-> **Die Konsequenz:** Was eine KI erzeugt, können Sie sofort lesen, prüfen und
-> korrigieren. Sie brauchen kein Werkzeug dafür — nur einen Texteditor und Ihr
-> Fachwissen.
-
---{{1}}--
-Warum passt das zusammen? Erinnern Sie sich an die erste Idee: Ein Kurs ist
-Text. Kein proprietäres Format, keine Datenbank.
-
---{{2}}--
-Und was können Sprachmodelle besser als alles andere? Text schreiben. Deshalb
-ist ein LiaScript-Kurs eine dankbare Aufgabe für eine KI — während ein
-klassischer LMS-Test es nicht ist.
-
---{{3}}--
-Der entscheidende Punkt ist aber ein anderer: Weil das Ergebnis Text ist,
-können Sie es lesen und beurteilen. Sie bleiben die Fachperson. Genau das
-sehen wir jetzt.
+> **Texte sind die Ausgabe von KIs ... und ein LiaScript-Kurs ist Text - kein Binärformat, keine Datenbank, keine verschachtelte XML-Struktur.
 
 ## Schritt 1 — Der Auftrag
 
@@ -359,8 +318,8 @@ Anforderungen:
 
      {{2}}
 > [!TIP]
-> **Beachten Sie:** Der Prompt enthält kein einziges Stück LiaScript-Syntax.
-> Er beschreibt, was der Kurs leisten soll — nicht, wie er geschrieben wird.
+> **Beachten Sie:** Der Prompt enthält kein einziges Stück LiaScript-Syntax. Die großen Sprachmodelle kennen diese aber. 
+> Der Auftrag beschreibt nur, was der Kurs leisten soll — nicht, wie er geschrieben wird.
 
 --{{0}}--
 Schritt eins: der Auftrag. Ich formuliere jetzt vor Ihren Augen, was der Kurs
@@ -369,6 +328,11 @@ enthalten soll.
 --{{1}}--
 Hier steht der Prompt im Wortlaut. Ein Einstieg, eine schrittweise Erklärung,
 lauffähiger Code, zwei Quizfragen, eine Visualisierung.
+
+     {{2}}
+> [!TIP]
+> **Selbst nachlesen:**
+> [Prompt im Wortlaut](https://github.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/blob/main/demo/00_prompt.md)
 
 --{{2}}--
 Und beachten Sie: In diesem Auftrag steht keine einzige Zeile LiaScript-Syntax.
@@ -398,11 +362,17 @@ Schritt zwei: der Rohentwurf. Ich sage es vorweg — das Ergebnis ist nicht
 fertig, und das ist Absicht. Ich zeige Ihnen bewusst nicht das geschönte
 Resultat.
 
+     {{1}}
+> [!TIP]
+> **Selbst nachlesen:**
+> [Rohentwurf im LiaScript-Editor öffnen](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/01_rohentwurf.md)
+
 --{{1}}--
 Denn genau hier liegt Ihre Arbeit. Diese vier Muster sehen Sie fast immer:
 formal korrekt, aber didaktisch flach. Quizfragen, die Auswendiglernen prüfen
 statt Verständnis. Beispiele ohne Bezug zur Zielgruppe. Und Aussagen, die fast
-richtig sind — was bei Lehrmaterial eben nicht genügt.
+richtig sind — was bei Lehrmaterial eben nicht genügt. Über den Link können Sie
+den Entwurf jederzeit selbst öffnen und die vier Stellen suchen.
 
 ## Schritt 3 — Die Redaktion
 
@@ -434,9 +404,20 @@ Rohmaterial — in Minuten statt Stunden. Sie liefern fachliche Korrektheit, die
 didaktische Reihenfolge, den Bezug zu Ihrer konkreten Zielgruppe und die guten
 Fragen.
 
+     {{3}}
+> [!TIP]
+> **Selbst vergleichen:**
+> [Überarbeitete Fassung](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/02_ueberarbeitet.md)
+> · [Endfassung mit OER-Metadaten](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/03_final.md)
+
 --{{2}}--
 Und die beruhigende Nachricht: Sie brauchen dafür keine neue Kompetenz. Wer ein
 Thema unterrichten kann, kann auch beurteilen, ob ein Text dazu taugt.
+
+--{{3}}--
+Beide Fassungen liegen im Editor nebeneinander — Sie können den Rohentwurf und
+das Ergebnis in Ruhe vergleichen und sehen genau, was die Redaktion verändert
+hat.
 
 ## Und die drei Ideen?
 

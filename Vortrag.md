@@ -88,14 +88,29 @@ Textdatei, die Ihr Browser darstellt. Sie können sie sofort öffnen, editieren 
 **Öffnen Sie den Vortrag auf Ihrem eigenen Gerät:**
 
      {{1}}
+<div class="cols">
+<div>
+
 [qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/Vortrag.md "Diesen Vortrag im Browser öffnen")
+
+</div>
+<div>
+
+__… oder abtippen:__
+
+# <https://bit.ly/4cxGLcg>
+
+</div>
+</div>
 
      {{1}}
 > [!IMPORTANT]
 > **LiaScript definiert 3 Modi für die Darstellung - Lehrbuch, Präsentation, Folien.**
 
 --{{1}}--
-Scannen Sie gern den Code. Klicken Sie dann rechts oben auf den Button, um den Online-Editor zu öffnen.
+Scannen Sie gern den Code — oder tippen Sie die kurze Adresse rechts ab, wenn
+Ihnen das lieber ist. Klicken Sie dann rechts oben auf den Button, um den
+Online-Editor zu öffnen.
 
 ## Agenda
 

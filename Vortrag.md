@@ -259,7 +259,7 @@ __Ein Video__ (!?)
 [video](https://www.youtube.com/watch?v=TJHEDKSahoM)
 
 __Ein Irgendwas__ (??)
-[webapp](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601)
+[webapp](https://www.falstad.com/circuit/circuitjs.html?startCircuit=cap.txt)
 ````
 
      {{1}}
@@ -273,8 +273,10 @@ technische Hürde. Kein Einbettungscode, kein iframe-Gebastel, keine
 Plugin-Rechte. Sie schreiben denselben Link wie immer — und stellen ein bis
 zwei Zeichen davor. Ein Ausrufezeichen macht daraus ein Bild, ein Fragezeichen
 ein Tondokument, beide zusammen ein Video, zwei Fragezeichen eine beliebige
-Webanwendung. Links steht der Quelltext, rechts das Ergebnis — und Sie können
-die Zeichen jetzt selbst ergänzen und zusehen, was passiert.
+Webanwendung — unten im Beispiel eine Schaltungssimulation, in der Sie den
+Stromfluss tatsächlich laufen sehen. Links steht der Quelltext, rechts das
+Ergebnis — und Sie können die Zeichen jetzt selbst ergänzen und zusehen, was
+passiert.
 
 --{{1}}--
 Merken Sie sich diese Schreibweise; sie kommt gleich wieder.

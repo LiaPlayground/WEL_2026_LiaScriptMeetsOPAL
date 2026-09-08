@@ -239,47 +239,44 @@ ausführbarer Programmcode einbetten.
 > **Der Unterschied zwischen einem Link und einer 3D-Simulation sind ein bis
 > zwei Zeichen am Zeilenanfang.**
 
-| Schreibweise     | Ergebnis  |
-| ---------------- | --------- |
-| ` [Titel](URL)`  | Link      |
-| `![Titel](URL)`  | Bild      |
-| `?[Titel](URL)`  | Audio     |
-| `!?[Titel](URL)` | Video     |
-| `??[Titel](URL)` | Anwendung |
-
 Dieselbe URL, ein Zeichen mehr — und aus dem Verweis wird eingebetteter Inhalt.
+Probieren Sie es aus: Ergänzen Sie links ein Zeichen und sehen Sie rechts zu.
+
+````markdown @embed.style(height: 600px; min-width: 100%; border: 1px black solid)
+# Systematik hinter den Befehlen
+
+__Ein Link__
++ https://tu-freiberg.de/
++ [TUBAF](https://tu-freiberg.de/)
+
+__Ein externes Bild__ (!)
+[image](https://tu-freiberg.de/sites/default/files/2024-04/732_Silber_Calcit_01_HM.jpg)
+
+__Ein Tondokument__ (?)
+[sound](https://open.spotify.com/album/69cO89tra0gETaDHwsKZo5)
+
+__Ein Video__ (!?)
+[video](https://www.youtube.com/watch?v=TJHEDKSahoM)
+
+__Ein Irgendwas__ (??)
+[webapp](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601)
+````
+
+     {{1}}
+> [!TIP]
+> Merken Sie sich die zwei Fragezeichen — sie begegnen uns gleich in der
+> Werkstatt wieder, wenn die KI genau diese Schreibweise verwendet.
 
 --{{0}}--
 Und jetzt der Punkt, der viele überrascht: Multimedia einzubinden ist keine
 technische Hürde. Kein Einbettungscode, kein iframe-Gebastel, keine
 Plugin-Rechte. Sie schreiben denselben Link wie immer — und stellen ein bis
-zwei Zeichen davor.
-
-     {{1}}
-**Ein Beispiel: Sortierverfahren visualisiert**
-
-     {{1}}
-```markdown
-??[Sortier-Visualisierung](https://www.sortvisualizer.com/bubblesort/)
-```
-
-     {{1}}
-wird zu einer eingebetteten, bedienbaren Anwendung:
-
-     {{1}}
-??[Sortier-Visualisierung](https://www.sortvisualizer.com/bubblesort/ "Interaktive Visualisierung von Bubble Sort")
-
-     {{2}}
-> [!TIP]
-> Merken Sie sich das Fragezeichen — es begegnet uns gleich in der Werkstatt
-> wieder, wenn die KI genau diese Schreibweise verwendet.
+zwei Zeichen davor. Ein Ausrufezeichen macht daraus ein Bild, ein Fragezeichen
+ein Tondokument, beide zusammen ein Video, zwei Fragezeichen eine beliebige
+Webanwendung. Links steht der Quelltext, rechts das Ergebnis — und Sie können
+die Zeichen jetzt selbst ergänzen und zusehen, was passiert.
 
 --{{1}}--
-Zwei Fragezeichen machen aus dem Link eine eingebettete Anwendung. Sie sehen
-eine Sortier-Visualisierung, die Sie direkt bedienen können — eingebunden mit
-einer einzigen Zeile Text.
-
---{{2}}--
 Merken Sie sich diese Schreibweise; sie kommt gleich wieder.
 
 

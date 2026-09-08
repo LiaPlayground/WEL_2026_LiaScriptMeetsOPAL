@@ -262,11 +262,6 @@ __Ein Irgendwas__ (??)
 [webapp](https://www.falstad.com/circuit/circuitjs.html?startCircuit=cap.txt)
 ````
 
-     {{1}}
-> [!TIP]
-> Merken Sie sich die zwei Fragezeichen — sie begegnen uns gleich in der
-> Werkstatt wieder, wenn die KI genau diese Schreibweise verwendet.
-
 --{{0}}--
 Und jetzt der Punkt, der viele überrascht: Multimedia einzubinden ist keine
 technische Hürde. Kein Einbettungscode, kein iframe-Gebastel, keine
@@ -278,15 +273,10 @@ Stromfluss tatsächlich laufen sehen. Links steht der Quelltext, rechts das
 Ergebnis — und Sie können die Zeichen jetzt selbst ergänzen und zusehen, was
 passiert.
 
---{{1}}--
-Merken Sie sich diese Schreibweise; sie kommt gleich wieder.
-
-
 # Die Werkstatt
 
 > [!IMPORTANT]
-> **Jetzt drehen wir den Spieß um: Wir schreiben den Kurs nicht — wir lassen
-> ihn schreiben.**
+> **Texte sind die Ausgabe von KIs - .**
 
 --{{0}}--
 Kommen wir zum Hauptteil. Bis hierher habe ich Ihnen gezeigt, wie LiaScript
@@ -413,7 +403,7 @@ richtig sind — was bei Lehrmaterial eben nicht genügt.
 
      {{2}}
 > [!NOTE]
-> **Das Verhältnis stimmt, wenn Sie den Entwurf kritisch lesen können.** Wer
+> **Das Verhältnis stimmt, wenn Sie den Entwurf kritisch hinterfragen.** Wer
 > ein Thema unterrichten kann, kann auch beurteilen, ob ein Text dazu taugt.
 > Genau diese Kompetenz brauchen Sie — und keine andere.
 
@@ -511,20 +501,6 @@ Weg zwei: das native Interface. OPAL kann LiaScript inzwischen direkt anzeigen
 Und Weg drei: Der Kurs liegt offen in einem Repository, OPAL verweist nur
 darauf. Das ist der Weg für echte offene Bildungsressourcen.
 
-## Welcher Weg wann?
-
-| Wenn …                                          | … dann                |
-| ----------------------------------------------- | --------------------- |
-| maximale Offenheit, OER-Verbreitung             | **Git / Codeberg**    |
-| Standard-LMS-Objekt, Ergebnis ans LMS           | **SCORM**             |
-| Inhalt in OPAL, schnelle Pflege, native Anzeige | **Natives Interface** |
-
---{{0}}--
-Die Faustregel: für offene Verbreitung Git, für ein klassisches LMS-Objekt
-SCORM, und wenn der Inhalt bequem in OPAL leben und dort gepflegt werden soll,
-das native Interface.
-
-
 # Einordnung
 
 > [!IMPORTANT]
@@ -533,7 +509,7 @@ das native Interface.
 --{{0}}--
 Bevor wir zu den Fragen kommen, drei Punkte zur ehrlichen Einordnung.
 
-## Was bleibt Ihre Aufgabe
+## Macht jetzt die KI alles?
 
      {{1}}
 **Die Grenzen der Maschine**
@@ -553,7 +529,7 @@ Es ist die Arbeit, die Sie ohnehin leisten — nur an anderer Stelle. Statt eine
 leere Seite zu füllen, prüfen und schärfen Sie einen Entwurf.
 
      {{2}}
-> Die Zeitersparnis liegt nicht im Weglassen, sondern im **anderen Startpunkt**.
+> Der Startpunkt und damit Ihre Rolle verändern sich.
 
 --{{1}}--
 Erstens die Grenzen: Die KI kennt Ihre Studierenden nicht, Ihr Curriculum
@@ -592,6 +568,32 @@ Creative-Commons-Lizenz.
 Aber Lizenz allein genügt nicht — Nachnutzung funktioniert nur, wenn das Format
 sie zulässt. Bei Text ist das der Fall.
 
+## Und passiert das auch wirklich?
+
+> [!IMPORTANT]
+> **Nachnutzung ist keine Absichtserklärung — sie ist messbar.**
+
+Jeder **Kreis** ist eine Autorin oder ein Autor, jede **Raute** ein
+LiaScript-Repository. Eine Linie bedeutet: Diese Person hat zu diesem Material
+beigetragen. **Orange** markiert alle, die an mehr als drei Repositories
+mitgewirkt haben.
+
+??[Repository-Autoren-Netzwerk der LiaScript-Community](https://liaplayground.github.io/WEL_2026_LiaScriptMeetsOPAL/assets/repo_author_graph.html "Bipartiter Graph aus der Analyse öffentlicher LiaScript-Repositories")
+
+> [!TIP]
+> Der Graph lässt sich bedienen: Blenden Sie mit **„Hide authors (André &
+> Sebastian)"** die beiden Hauptentwickler aus — das Netz bleibt trotzdem
+> zusammenhängend.
+
+--{{0}}--
+Aber bleibt das eine Absichtserklärung? Schauen wir auf die Daten. Wir haben
+die öffentlichen LiaScript-Repositories ausgewertet: Jeder Kreis ist eine
+Autorin oder ein Autor, jede Raute ein Repository, jede Linie ein Beitrag.
+Orange markiert Personen, die an mehr als drei Materialien mitgearbeitet
+haben. Sie sehen: Das ist keine Sammlung von Einzelkämpfern, sondern ein
+verbundenes Netz. Und wenn ich André und mich ausblende, bleibt es bestehen —
+die Community trägt sich selbst.
+
 
 # Vielen Dank!
 
@@ -601,29 +603,4 @@ sie zulässt. Bei Text ist das der Fall.
 2. Interaktion gehört zum Inhalt
 3. Der Browser ist die Laufzeitumgebung
 
-**Der Weg nach OPAL** — SCORM · natives Interface · Git
-
----
-
-> **Die Kernbotschaft**
->
-> Ein Kurs ist Text.
->
-> Deshalb kann eine KI ihn schreiben — und deshalb bleiben **Sie** die
-> Fachperson, die ihn verantwortet.
-
----
-
-**Alle Materialien**
-
-[qr-code](https://github.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL "Repository mit Vortrag und Demo-Dateien")
-
-**Fragen?**
-
 **Prof. Dr. Sebastian Zug** · TU Bergakademie Freiberg · Institut für Informatik
-
---{{0}}--
-Damit bin ich am Ende. Die drei Ideen, die drei Wege nach OPAL — und die
-Botschaft, die mir am wichtigsten ist: Ein Kurs ist Text. Deshalb kann eine KI
-ihn schreiben, und deshalb bleiben Sie die Fachperson, die ihn verantwortet.
-Vielen Dank für Ihre Aufmerksamkeit — ich freue mich auf Ihre Fragen.

@@ -110,3 +110,36 @@ konnte den Kurs schreiben, weil er Text ist; sie hat ein Quiz gesetzt, weil
 Interaktion Sprachbestandteil ist; der Code läuft im Browser; und für die
 Visualisierung stehen die zwei Fragezeichen von Folie „Eine Syntax, fünf
 Medientypen".
+
+---
+
+## Nachtrag: der Community-Graph am Ende (Block 5)
+
+Die Folie „Und passiert das auch wirklich?" bettet
+`assets/repo_author_graph.html` über GitHub Pages ein:
+
+```
+https://liaplayground.github.io/WEL_2026_LiaScriptMeetsOPAL/assets/repo_author_graph.html
+```
+
+**Voraussetzung:** GitHub Pages muss für das Repository aktiviert sein —
+Settings → Pages → Source: *Deploy from a branch*, Branch `main`, Ordner
+`/ (root)`. Zum Stand 08.09.2026 war Pages **noch nicht aktiv**; die URL
+liefert bis dahin 404.
+
+Nach dem Aktivieren dauert die erste Veröffentlichung ein bis zwei Minuten.
+Prüfen lässt sich das mit:
+
+```bash
+curl -sI -o /dev/null -w '%{http_code}\n' \
+  https://liaplayground.github.io/WEL_2026_LiaScriptMeetsOPAL/assets/repo_author_graph.html
+```
+
+**Fallback ohne Pages:** Die Datei liegt lokal unter
+`assets/repo_author_graph.html` und ist eigenständig lauffähig (alle Daten
+eingebettet, nur vis-network kommt vom CDN). Im Notfall in einem zweiten
+Browsertab öffnen und dorthin wechseln, statt die Folie einzubetten.
+
+**Auf der Bühne:** Der Graph hat einen Schalter *„Hide authors (André &
+Sebastian)"*. Ihn zu betätigen ist der stärkste Moment der Folie — das Netz
+bleibt zusammenhängend, auch ohne die beiden Hauptentwickler.

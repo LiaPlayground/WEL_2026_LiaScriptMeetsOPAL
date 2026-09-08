@@ -43,6 +43,16 @@ Bearbeitungsstufen — als Sicherheitsnetz, falls Netz oder KI-Dienst ausfallen:
 Der Bubble-Sort-Kurs lässt sich auch einzeln öffnen:
 [Endfassung ansehen](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/03_final.md)
 
+## Community-Graph
+
+Die Abschlussfolie bettet [assets/repo_author_graph.html](assets/repo_author_graph.html)
+ein — ein bipartiter Graph aus der Auswertung öffentlicher LiaScript-Repositories
+(Autorinnen und Autoren als Kreise, Repositories als Rauten). Er stammt aus dem
+Analyseprojekt `LiaScript_Paper` und ist eigenständig lauffähig.
+
+> **Hinweis:** Die Einbettung im Vortrag nutzt GitHub Pages. Dafür muss unter
+> *Settings → Pages* als Quelle Branch `main`, Ordner `/ (root)` gesetzt sein.
+
 ## Konzept
 
 Das Design-Dokument liegt unter

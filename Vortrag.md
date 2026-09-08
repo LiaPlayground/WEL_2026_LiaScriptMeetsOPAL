@@ -440,57 +440,31 @@ LiaScript braucht kein LMS. Der Browser genügt. Aber es gibt gute Gründe, den
 Inhalt trotzdem in OPAL zu haben.
 
      {{1}}
-**Weg 1 — SCORM**
-
-     {{1}}
-Import als Standard-Lernobjekt in OPAL und jedes andere
-[SCORM](https://de.wikipedia.org/wiki/SCORM)-fähige LMS.
-
-- **Stärke:** Ergebnisrückmeldung der Teilnehmenden ans LMS.
-- **Schwäche:** Bei jeder Änderung neu exportieren und importieren.
-
-     {{2}}
-**Weg 2 — Natives Interface**
-
-     {{2}}
-OPAL unterstützt LiaScript direkt — ohne Export, ohne iFrame.
-
-- **Stärke:** Einfache Integration, keine URL-Konfiguration, Pflege in OPAL.
-- **Schwäche:** Keine Rückmeldung von Nutzendendaten an das LMS.
-
-     {{3}}
-**Weg 3 — Git / Codeberg**
-
-     {{3}}
-Der Kurs bleibt offen im Netz, OPAL verweist darauf.
-
-- **Stärke:** Maximale Offenheit, echte OER, Versionierung, Kollaboration.
-- **Schwäche:** Erfordert ein Repository.
+| Weg | Was passiert | Stärke | Schwäche |
+| --- | ------------ | ------ | -------- |
+| **1 · [SCORM](https://de.wikipedia.org/wiki/SCORM)** | Import als Standard-Lernobjekt — in OPAL und jedem anderen LMS | Ergebnisse fließen ans LMS zurück | Bei jeder Änderung neu exportieren und importieren |
+| **2 · Natives Interface** | OPAL zeigt LiaScript direkt an — ohne Export, ohne iFrame | Pflege in OPAL, keine URL-Konfiguration | Keine Rückmeldung von Nutzendendaten |
+| **3 · Git / Codeberg** | Der Kurs bleibt offen im Netz, OPAL verweist darauf | Echte OER: Versionierung, Kollaboration | Erfordert ein Repository |
 
 --{{1}}--
-Weg eins: SCORM. Das ist die allgemeine Lösung für Lernmanagementsysteme. Der
-große Vorteil: Ergebnisse fließen ans LMS zurück.
+Drei Wege stehen Ihnen offen. Erstens SCORM — die allgemeine Lösung für
+Lernmanagementsysteme, mit dem Vorteil, dass Ergebnisse ans LMS zurückfließen.
+Zweitens das native Interface: OPAL kann LiaScript inzwischen direkt anzeigen,
+ohne Export, ohne Bastelei — das ist das Alleinstellungsmerkmal von OPAL. Und
+drittens Git: Der Kurs liegt offen in einem Repository, OPAL verweist nur
+darauf. Das ist der Weg für echte offene Bildungsressourcen.
 
---{{2}}--
-Weg zwei: das native Interface. OPAL kann LiaScript inzwischen direkt anzeigen
-— ohne Export, ohne Bastelei. Das ist das Alleinstellungsmerkmal von OPAL.
-
-     {{4}}
+     {{2}}
 > [!TIP]
 > **Alle drei Wege im Detail — direkt in OPAL:**
 >
 > [LiaScript meets OPAL — der Kurs](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936?4)
 > · [Anleitung zur Einbettung](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936/CourseNode/1751769302969809009?1)
 
---{{3}}--
-Und Weg drei: Der Kurs liegt offen in einem Repository, OPAL verweist nur
-darauf. Das ist der Weg für echte offene Bildungsressourcen.
-
---{{4}}--
-In OPAL selbst liegt ein Kurs, der
-alle drei Wege Schritt für Schritt beschreibt — mit einer bebilderten Anleitung
-für die Einbettung. Dort finden Sie auch Beispielmaterialien zum Ausprobieren.
-
+--{{2}}--
+In OPAL selbst liegt ein Kurs, der alle drei Wege Schritt für Schritt
+beschreibt — mit einer bebilderten Anleitung für die Einbettung. Dort finden
+Sie auch Beispielmaterialien zum Ausprobieren.
 
 # Einordnung
 
@@ -559,10 +533,10 @@ Creative-Commons-Lizenz.
 Aber Lizenz allein genügt nicht — Nachnutzung funktioniert nur, wenn das Format
 sie zulässt. Bei Text ist das der Fall.
 
-## Und passiert das auch wirklich?
+## Macht KI OER nicht überflüssig?
 
 > [!IMPORTANT]
-> **Nachnutzung ist keine Absichtserklärung — sie ist messbar.**
+> **Nachnutzung ist keine Absichtserklärung — sie ist in LiaScript messbar.**
 
 Jeder **Kreis** ist eine Autorin oder ein Autor, jede **Raute** ein
 LiaScript-Repository. Eine Linie bedeutet: Diese Person hat zu diesem Material

@@ -104,12 +104,14 @@ Fall streichen.
 
 ## Zum Schluss des Blocks
 
-Nach der vierten Korrektur zur Übersichtstabelle „Und die drei Ideen?" in
-`Vortrag.md` wechseln. Dort schließt sich der Kreis zum Konzeptteil: Die KI
-konnte den Kurs schreiben, weil er Text ist; sie hat ein Quiz gesetzt, weil
-Interaktion Sprachbestandteil ist; der Code läuft im Browser; und für die
-Visualisierung stehen die zwei Fragezeichen von Folie „Eine Syntax, fünf
-Medientypen".
+Nach der vierten Korrektur zum Block „Der Weg nach OPAL" wechseln.
+
+Wenn Zeit bleibt, lohnt an dieser Stelle ein Satz, der den Kreis zum
+Konzeptteil schließt: Die KI konnte den Kurs überhaupt schreiben, weil er Text
+ist — das war Idee 1. Sie hat ein Quiz in drei Zeilen gesetzt, weil Interaktion
+zur Sprache gehört — Idee 2. Der Code läuft im Browser — Idee 3. Und für die
+Visualisierung hat sie genau die zwei Fragezeichen verwendet, die vorhin auf
+der Medien-Folie standen.
 
 ---
 

@@ -562,7 +562,7 @@ die Community trägt sich selbst.
 
 # Vielen Dank!
 
-<h2>„Ein Kurs ist ein Text.“</h2>
+<h2>„Ein LiaScript-Kurs ist ein Text.“</h2>
 
 <div class="cols">
 <div>
@@ -573,9 +573,7 @@ die Community trägt sich selbst.
 2. Interaktion gehört zum Inhalt
 3. Der Browser ist die Laufzeitumgebung
 
-**Der Weg nach OPAL**
-
-SCORM · natives Interface · Git
+... die in OPAL ihre Wirkung entfalten.
 
 </div>
 <div>
@@ -593,10 +591,6 @@ SCORM · natives Interface · Git
 </div>
 </div>
 
----
-
-<div class="cols">
-<div>
 
 > **Fragen?**
 >
@@ -605,18 +599,3 @@ SCORM · natives Interface · Git
 > **Dr. André Dietrich**
 >
 > TU Bergakademie Freiberg · Institut für Informatik
-
-</div>
-<div>
-
-![OER](https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true "OER-Logo — Quelle: Jonathasmello, Eigenes Werk, CC BY 3.0, erweitert um das LiaScript-Logo")
-
-</div>
-</div>
-
---{{0}}--
-Damit bin ich am Ende. Die drei Ideen, die drei Wege nach OPAL — und die
-Botschaft, die mir am wichtigsten ist: Ein Kurs ist ein Text. Deshalb kann eine
-KI ihn schreiben, und deshalb bleiben Sie die Fachperson, die ihn verantwortet.
-Alle Materialien finden Sie unter der Adresse rechts. Vielen Dank für Ihre
-Aufmerksamkeit — ich freue mich auf Ihre Fragen.

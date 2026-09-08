@@ -25,6 +25,7 @@ edit: true
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -38,30 +39,32 @@ edit: true
 
 # LiaScript meets OPAL
 
-**Wie aus einer Textdatei ein interaktiver Kurs wird — mit KI-Unterstützung**
-
-> **Workshop — WeL'26, Werkstatt eLearning**
->
-> Hochschule Zittau/Görlitz, 20. August 2026
-
----
+<h2>„Ein Kurs ist Text — deshalb kann eine KI ihn schreiben.“</h2>
 
 <div class="cols">
+<div>
+
+<h3>Prof. Dr. Sebastian Zug</h3>
+
+<h4>TU Bergakademie Freiberg, Institut für Informatik</h4>
+
+> __WeL'26 — Werkstatt eLearning__
+>
+> __Hochschule Zittau/Görlitz, 20. August 2026__
+
+</div>
 <div>
 
 ![OER](https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true "OER-Logo — Quelle: Jonathasmello, Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156), erweitert um das LiaScript-Logo")
 
 </div>
-<div>
-
-**Prof. Dr. Sebastian Zug**
-
-TU Bergakademie Freiberg
-
-Institut für Informatik
-
 </div>
-</div>
+
+---
+
+<!-- class="reference" -->
+> Dieser Foliensatz steht unter einer Creative-Commons-Lizenz (CC BY 4.0). Der
+> Quelltext liegt auf [GitHub](https://github.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL).
 
 --{{0}}--
 Herzlich willkommen! In der nächsten Stunde zeige ich Ihnen, wie aus einer

@@ -341,13 +341,24 @@ Lehrende, die nicht programmieren.
 
 ## Schritt 2 — Der Rohentwurf
 
+      {{0}}
 > [!CAUTION]
 > **Achtung: Was jetzt kommt, ist nicht fertig.**
 >
 > Wir schauen gemeinsam hin — und finden die Schwachstellen.
 
+      {{0}}
+> [!TIP]
+> **Selbst nachlesen:**
+> [Rohentwurf im LiaScript-Editor öffnen](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/01_rohentwurf.md)
+
+--{{0}}--
+Schritt zwei: der Rohentwurf. Ich sage es vorweg — das Ergebnis ist nicht
+fertig, und das ist Absicht. Ich zeige Ihnen bewusst nicht das geschönte
+Resultat.
+
      {{1}}
-**Woran erkennen Sie einen KI-Rohentwurf?**
+**Was sind wiederkehrende Probleme im KI-Rohentwurf?**
 
      {{1}}
 | Typisches Muster                   | Warum problematisch                       |
@@ -357,15 +368,6 @@ Lehrende, die nicht programmieren.
 | Beispiel ohne Bezug zur Zielgruppe | Abstrakte Zahlenreihe statt Anwendung     |
 | Fachlich fast richtig              | *Fast* ist im Lehrmaterial nicht genug    |
 
---{{0}}--
-Schritt zwei: der Rohentwurf. Ich sage es vorweg — das Ergebnis ist nicht
-fertig, und das ist Absicht. Ich zeige Ihnen bewusst nicht das geschönte
-Resultat.
-
-     {{1}}
-> [!TIP]
-> **Selbst nachlesen:**
-> [Rohentwurf im LiaScript-Editor öffnen](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/01_rohentwurf.md)
 
 --{{1}}--
 Denn genau hier liegt Ihre Arbeit. Diese vier Muster sehen Sie fast immer:
@@ -419,26 +421,6 @@ Beide Fassungen liegen im Editor nebeneinander — Sie können den Rohentwurf un
 das Ergebnis in Ruhe vergleichen und sehen genau, was die Redaktion verändert
 hat.
 
-## Und die drei Ideen?
-
-> [!TIP]
-> **Schauen wir noch einmal auf das, was gerade entstanden ist.**
-
-| Was die KI getan hat                             | Welche Idee dahintersteckt                   |
-| ------------------------------------------------ | -------------------------------------------- |
-| Sie hat **Text** geschrieben                     | **Idee 1** — deshalb konnte sie es überhaupt |
-| Sie hat ein **Quiz** in drei Zeilen gesetzt      | **Idee 2** — Interaktion ist Sprachbestandteil |
-| Der **Python-Code läuft** im Browser             | **Idee 3** — der Browser als Laufzeitumgebung |
-| Sie hat `??[...]` für die Visualisierung genutzt | Die Schreibweise von vorhin                  |
-
---{{0}}--
-Und jetzt schließt sich der Kreis. Schauen Sie, was gerade passiert ist: Die KI
-konnte diesen Kurs schreiben, weil ein Kurs Text ist — das war Idee eins. Sie
-hat ein Quiz gesetzt, weil Interaktion zur Sprache gehört — Idee zwei. Der Code
-läuft im Browser — Idee drei. Und für die Visualisierung hat sie genau die
-zwei Fragezeichen verwendet, die ich Ihnen vorhin gezeigt habe.
-
-
 # Der Weg nach OPAL
 
 >[!CAUTION]
@@ -456,8 +438,6 @@ Webserver und stellt sie dar.
 Kommen wir zum letzten Teil: Wie kommt dieser Kurs nun nach OPAL? Vorweg —
 LiaScript braucht kein LMS. Der Browser genügt. Aber es gibt gute Gründe, den
 Inhalt trotzdem in OPAL zu haben.
-
-## Drei Wege
 
      {{1}}
 **Weg 1 — SCORM**
@@ -495,9 +475,22 @@ große Vorteil: Ergebnisse fließen ans LMS zurück.
 Weg zwei: das native Interface. OPAL kann LiaScript inzwischen direkt anzeigen
 — ohne Export, ohne Bastelei. Das ist das Alleinstellungsmerkmal von OPAL.
 
+     {{4}}
+> [!TIP]
+> **Alle drei Wege im Detail — direkt in OPAL:**
+>
+> [LiaScript meets OPAL — der Kurs](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936?4)
+> · [Anleitung zur Einbettung](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936/CourseNode/1751769302969809009?1)
+
 --{{3}}--
 Und Weg drei: Der Kurs liegt offen in einem Repository, OPAL verweist nur
 darauf. Das ist der Weg für echte offene Bildungsressourcen.
+
+--{{4}}--
+In OPAL selbst liegt ein Kurs, der
+alle drei Wege Schritt für Schritt beschreibt — mit einer bebilderten Anleitung
+für die Einbettung. Dort finden Sie auch Beispielmaterialien zum Ausprobieren.
+
 
 # Einordnung
 

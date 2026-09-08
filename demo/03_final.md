@@ -11,7 +11,7 @@ comment:  Wie Bubble Sort funktioniert — und warum das Verfahren so heißt.
 
 tags:     Informatik, Algorithmen, Sortierverfahren, OER
 
-logo:     https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/Logo.png
+logo:     https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true
 
 license:  https://creativecommons.org/licenses/by/4.0/
 

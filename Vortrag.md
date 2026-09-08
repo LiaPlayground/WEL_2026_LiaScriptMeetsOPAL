@@ -49,7 +49,7 @@ edit: true
 <div class="cols">
 <div>
 
-![LiaScript](https://raw.githubusercontent.com/MINT-the-GAP/Wochenaufgabe/refs/heads/main/Zeug/Logo.png)
+![OER](https://github.com/LiaPlayground/Saechsischer_Schulinformatik_Tag_2026/blob/main/pic/LiaScript_Meets_OER.png?raw=true "OER-Logo — Quelle: Jonathasmello, Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156), erweitert um das LiaScript-Logo")
 
 </div>
 <div>

@@ -13,6 +13,7 @@ comment:  WeL'26 — LiaScript meets OPAL. Wie aus einer Textdatei ein
 
 author:   Sebastian Zug
 
+import: https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 persistent: true

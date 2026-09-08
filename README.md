@@ -1,7 +1,8 @@
 # LiaScript meets OPAL
 
 > **Workshop — WeL'26, Hochschule Zittau/Görlitz, 20. August 2026**
-> *Wie aus einer Textdatei ein interaktiver Kurs wird — mit KI-Unterstützung*
+> *Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver Materialien
+> für das sächsische LMS*
 
 Vortrag von **Prof. Dr. Sebastian Zug** (TU Bergakademie Freiberg) über
 [LiaScript](https://liascript.github.io/) und seine Einbettung in OPAL — von

@@ -6,9 +6,9 @@ narrator: Deutsch Female
 
 tags: Vortrag, OPAL, LiaScript, OER, KI
 
-comment:  WeL'26 — LiaScript meets OPAL. Wie aus einer Textdatei ein
-          interaktiver Kurs wird, wie KI beim Schreiben hilft und wie
-          das Ergebnis nach OPAL kommt.
+comment:  Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver
+          Materialien für das sächsische LMS. Workshop auf der WeL'26,
+          Hochschule Zittau/Görlitz.
           Vortragender: Sebastian Zug (TU Bergakademie Freiberg).
 
 author:   Sebastian Zug
@@ -39,7 +39,7 @@ edit: true
 
 # LiaScript meets OPAL
 
-<h2>„Ein Kurs ist Text — deshalb kann eine KI ihn schreiben.“</h2>
+<h2>Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver Materialien für das sächsische LMS</h2>
 
 <div class="cols">
 <div>

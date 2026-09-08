@@ -546,9 +546,7 @@ mitgewirkt haben.
 ??[Repository-Autoren-Netzwerk der LiaScript-Community](https://liaplayground.github.io/WEL_2026_LiaScriptMeetsOPAL/assets/repo_author_graph.html "Bipartiter Graph aus der Analyse öffentlicher LiaScript-Repositories")
 
 > [!TIP]
-> Der Graph lässt sich bedienen: Blenden Sie mit **„Hide authors (André &
-> Sebastian)"** die beiden Hauptentwickler aus — das Netz bleibt trotzdem
-> zusammenhängend.
+> Der Graph analysiert LiaScript Kurse, die auf GitHub veröffentlicht wurden.
 
 --{{0}}--
 Aber bleibt das eine Absichtserklärung? Schauen wir auf die Daten. Wir haben

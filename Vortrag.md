@@ -14,7 +14,6 @@ comment:  Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver
 author:   Sebastian Zug
 
 import: https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
-import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 persistent: true
 
@@ -41,16 +40,18 @@ edit: true
 
 <h2>Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver Materialien für das sächsische LMS</h2>
 
-<div class="cols">
-<div>
-
-<h3>Prof. Dr. Sebastian Zug</h3>
+<h4>Prof. Dr. Sebastian Zug, Dr. André Dietrich</h4>
 
 <h4>TU Bergakademie Freiberg, Institut für Informatik</h4>
+
+<div class="cols">
+<div>
 
 > __WeL'26 — Werkstatt eLearning__
 >
 > __Hochschule Zittau/Görlitz, 20. August 2026__
+
+Dieser Foliensatz steht unter einer Creative-Commons-Lizenz (CC BY 4.0). Der Quelltext liegt auf [GitHub](https://github.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL).
 
 </div>
 <div>
@@ -62,10 +63,6 @@ edit: true
 
 ---
 
-<!-- class="reference" -->
-> Dieser Foliensatz steht unter einer Creative-Commons-Lizenz (CC BY 4.0). Der
-> Quelltext liegt auf [GitHub](https://github.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL).
-
 --{{0}}--
 Herzlich willkommen! In der nächsten Stunde zeige ich Ihnen, wie aus einer
 einfachen Textdatei ein interaktiver Kurs wird — und wie eine KI Ihnen dabei
@@ -75,15 +72,15 @@ die erste Fassung schreibt. Am Ende steht das Ergebnis in OPAL.
 # Was Sie hier gerade sehen
 
 > [!IMPORTANT]
-> **Dieser Vortrag ist kein PowerPoint. Er ist eine Textdatei.**
+> **Dieser Vortrag ist selbst ein LiaScript-Dokument und damit eine Textdatei.**
 
 Eine einzige Markdown-Datei, die in Ihrem Browser gerendert wird. Kein Server,
 keine Installation, kein Konto.
 
 --{{0}}--
-Bevor wir über LiaScript sprechen, ein Hinweis in eigener Sache: Was Sie gerade
+Was Sie gerade
 sehen, ist selbst ein LiaScript-Kurs. Keine Präsentationssoftware, sondern eine
-Textdatei auf GitHub, die Ihr Browser darstellt. Sie können sie sofort öffnen.
+Textdatei, die Ihr Browser darstellt. Sie können sie sofort öffnen, editieren und selbst in OPAL teilen.
 
      {{1}}
 **Öffnen Sie den Vortrag auf Ihrem eigenen Gerät:**
@@ -91,24 +88,28 @@ Textdatei auf GitHub, die Ihr Browser darstellt. Sie können sie sofort öffnen.
      {{1}}
 [qr-code](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/Vortrag.md "Diesen Vortrag im Browser öffnen")
 
---{{1}}--
-Scannen Sie gern den Code. Alles, was Sie heute sehen, können Sie danach
-nachlesen und weiterverwenden — die Materialien stehen unter einer offenen
-Lizenz.
+     {{1}}
+> [!IMPORTANT]
+> **LiaScript definiert 3 Modi für die Darstellung - Lehrbuch, Präsentation, Folien.**
 
-     {{2}}
+--{{1}}--
+Scannen Sie gern den Code. Klicken Sie dann rechts oben auf den Button, um den Online-Editor zu öffnen.
+
+## Agenda
+
 **Unser Weg durch die nächsten 60 Minuten**
 
-     {{2}}
+     {{0}}
 1. **Drei Ideen** — was LiaScript im Kern ausmacht
 2. **Eine Werkstatt** — wir lassen eine KI live einen Kurs schreiben
 3. **Der Weg nach OPAL** — drei Varianten, eine Empfehlung
 
---{{2}}--
+--{{0}}--
 Wir gehen in drei Schritten vor. Zuerst die Konzepte — kompakt, das dauert
 keine Viertelstunde. Dann der Hauptteil: Wir erzeugen gemeinsam einen Kurs, mit
 KI-Unterstützung, live. Und zum Schluss bringen wir das Ergebnis nach OPAL.
 
+> Am Ende kennen Sie den Weg, um eigene Materialien KI-gestützt zu generieren, zu editieren und zu publizieren.
 
 # Drei Ideen
 
@@ -116,12 +117,11 @@ KI-Unterstützung, live. Und zum Schluss bringen wir das Ergebnis nach OPAL.
 > **LiaScript ist Markdown — erweitert um genau die Elemente, die für
 > interaktive Lehre fehlen.**
 
-Markdown kennen viele bereits: aus GitHub, aus Obsidian, oder von der
-Sternchen-Schreibweise in Messengern. LiaScript nimmt diese vertraute
+Markdown kennen viele bereits: aus Chat-Apps, von Blog-Editoren, GitHub, usw. - LiaScript nimmt diese vertraute
 Textsprache und ergänzt sie um **drei Kernkonzepte**.
 
 --{{0}}--
-Kommen wir zu den Konzepten. LiaScript baut auf Markdown auf — einer
+LiaScript baut auf Markdown auf — einer
 Textauszeichnung, die viele von Ihnen schon einmal gesehen haben. Und es
 ergänzt drei Ideen, die für Lehre entscheidend sind.
 
@@ -206,40 +206,32 @@ Datenbank, keine Aufgaben-ID, keine Plugin-Installation.
 > viel.__
 
 ````markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
-<!--
-import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
--->
-
 # Der Browser als Plattform
 
 __Sprachausgabe__ — einfach per Tag:
 
 > {{|> Deutsch Female}}
-> Willkommen zur Einführung in Sortierverfahren!
+> Willkommen zur Lehrveranstaltung!
 
-__Echtes Python__ — ohne Installation, im Browser:
+__Ein 3D-Modell__ — der Familienschacht in Freiberg, drehbar im Browser:
 
-```python
-zahlen = [5, 1, 4, 2, 8]
-
-for i in range(len(zahlen)):
-    for j in range(len(zahlen) - i - 1):
-        if zahlen[j] > zahlen[j + 1]:
-            zahlen[j], zahlen[j + 1] = zahlen[j + 1], zahlen[j]
-    print(f"Durchlauf {i + 1}: {zahlen}")
-```
-@Pyodide.eval
+??[Familienschacht Freiberg](https://sketchfab.com/3d-models/familienschacht-freiberg-germany-7c7d30506c554385a4a4321366e2e601 "Quelle: sketchfab.com")
 ````
 
 > [!NOTE]
 > **Warum das zählt:** *Kein lokales Setup.* Die Studentin am eigenen Laptop,
 > der Student im Rechnerpool, die Teilnehmerin mit dem Tablet — alle sehen
-> denselben Kurs. Nur einen Browser braucht es.
+> denselben Kurs, drehen dasselbe Modell. Nur einen Browser braucht es.
+>
+> Und was hier ein Grubengebäude ist, kann in Ihrem Fach eine Maschine, ein
+> Molekül, eine Schaltung oder eine Messreihe sein.
 
 --{{0}}--
-Die dritte Idee: Der Browser ist die Ausführungsumgebung. Rechts läuft echtes
-Python — nicht simuliert, sondern wirklich ausgeführt, direkt in Ihrem Browser.
-Ohne Installation, ohne Server, ohne Administratorrechte.
+Die dritte Idee: Der Browser ist die Ausführungsumgebung. Rechts sehen Sie den
+Freiberger Familienschacht als 3D-Modell — Sie können es drehen und
+heranzoomen. Eine Zeile Text im Quelltext, keine Installation, kein Plugin.
+Und das ist nur ein Beispiel: Genauso lassen sich Simulationen, Messdaten oder
+ausführbarer Programmcode einbetten.
 
 ## Eine Syntax, fünf Medientypen
 

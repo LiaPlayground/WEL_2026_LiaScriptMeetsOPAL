@@ -20,6 +20,8 @@ persistent: true
 import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/demo/03_final.md)
+
 # Bubble Sort
 
 ## Ein Problem, das Sie kennen

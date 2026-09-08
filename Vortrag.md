@@ -36,6 +36,8 @@ edit: true
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/WEL_2026_LiaScriptMeetsOPAL/main/Vortrag.md)
+
 # LiaScript meets OPAL
 
 <h2>Ein Kurs ist ein Text — KI-unterstützte Erzeugung interaktiver Materialien für das sächsische LMS</h2>
